@@ -1,9 +1,7 @@
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-  <h1>
-    Hello
-  </h1>
+    <img src="./preview.png" />
 `;
 
 setupCounter(document.querySelector('#counter'));
